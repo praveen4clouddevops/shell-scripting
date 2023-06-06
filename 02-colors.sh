@@ -29,4 +29,4 @@ echo -e "\e[35m I am printing magenta Color \e[0m"
 echo -e "\e[36m I am printing Cyan Color    \e[0m"
 
 # Printing Background Color 
-echo -e "\e[43;32m I am printing Green Color with Yello Background \e[0m"git 
+echo -e "\e[43;32m I am printing Green Color with Yello Background \e[0m" 
