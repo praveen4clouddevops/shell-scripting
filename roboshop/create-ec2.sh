@@ -2,4 +2,5 @@
 
 # AMI_ID="ami-0c1d144c8fdd8d690"
 
-aws ec2 describe-images --filters "Name=name,Values=DevOps-LabImage-CentOS7
+AMI_ID=aws ec2 describe-images --filters "Name=name,Values=DevOps-LabImage-CentOS7" | jq '.Images[].ImageId'
+echo "AMI_ID is $AMI_ID"
